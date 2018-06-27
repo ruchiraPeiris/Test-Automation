@@ -1,6 +1,6 @@
 package TDD;
 
-public class LeapYearTest {
+public class LeapYearChecker {
 
     public boolean validate(int year){
 

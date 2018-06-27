@@ -2,20 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c2da1fdb-807a-4380-bc78-f1eac0241aea" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fit14qa.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/AnnotationTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/TDD/LeapYearTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/AnnotationTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/TDD/LeapYearTestTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/AnnotationTest.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/TDD/LeapYearTest.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/test-classes/AnnotationTest.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/test-classes/TDD/LeapYearTestTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/TDD/LeapYearTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/TDD/LeapYearChecker.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/TDD/LeapYearTestTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/TDD/LeapYearTestTest.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -28,8 +17,8 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="LeapYearTest.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/TDD/LeapYearTest.java">
+      <file leaf-file-name="LeapYearChecker.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/TDD/LeapYearChecker.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="198">
               <caret line="11" column="21" selection-start-line="11" selection-start-column="21" selection-end-line="11" selection-end-column="21" />
@@ -37,11 +26,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="LeapYearTestTest.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="LeapYearTestTest.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/TDD/LeapYearTestTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="216">
-              <caret line="42" lean-forward="true" selection-start-line="42" selection-end-line="42" />
+            <state relative-caret-position="666">
+              <caret line="43" column="12" lean-forward="true" selection-start-line="43" selection-start-column="12" selection-end-line="43" selection-end-column="12" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -162,6 +151,14 @@
               <item name="test" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="fit14qa" type="b2602c69:ProjectViewProjectNode" />
+              <item name="fit14qa" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="TDD" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -201,7 +198,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="TestNG.LeapYearTestTest">
+  <component name="RunManager" selected="TestNG.LeapYearCheckerTest (2)">
     <configuration default="true" type="Application" factoryName="Application">
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
     </configuration>
@@ -244,53 +241,7 @@
       <properties />
       <listeners />
     </configuration>
-    <configuration name="AnnotationTest.dance" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="fit14qa" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="SUITE_NAME" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="AnnotationTest" />
-      <option name="METHOD_NAME" value="dance" />
-      <option name="GROUP_NAME" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
-      <option name="OUTPUT_DIRECTORY" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <option name="USE_DEFAULT_REPORTERS" value="false" />
-      <option name="PROPERTIES_FILE" />
-      <properties />
-      <listeners />
-    </configuration>
-    <configuration name="AnnotationTest.sing" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="fit14qa" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="SUITE_NAME" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="AnnotationTest" />
-      <option name="METHOD_NAME" value="sing" />
-      <option name="GROUP_NAME" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
-      <option name="OUTPUT_DIRECTORY" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <option name="USE_DEFAULT_REPORTERS" value="false" />
-      <option name="PROPERTIES_FILE" />
-      <properties />
-      <listeners />
-    </configuration>
-    <configuration name="LeapYearTestTest" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="LeapYearCheckerTest (1)" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
       <module name="fit14qa" />
       <extension name="coverage">
         <pattern>
@@ -302,7 +253,7 @@
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="SUITE_NAME" />
       <option name="PACKAGE_NAME" value="TDD" />
-      <option name="MAIN_CLASS_NAME" value="TDD.LeapYearTestTest" />
+      <option name="MAIN_CLASS_NAME" value="TDD.LeapYearCheckerTest" />
       <option name="METHOD_NAME" />
       <option name="GROUP_NAME" />
       <option name="TEST_OBJECT" value="CLASS" />
@@ -319,7 +270,7 @@
       <properties />
       <listeners />
     </configuration>
-    <configuration name="LeapYearTestTest.testLeapYear" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="LeapYearCheckerTest (2)" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
       <module name="fit14qa" />
       <extension name="coverage">
         <pattern>
@@ -331,7 +282,65 @@
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="SUITE_NAME" />
       <option name="PACKAGE_NAME" value="TDD" />
-      <option name="MAIN_CLASS_NAME" value="TDD.LeapYearTestTest" />
+      <option name="MAIN_CLASS_NAME" value="TDD.LeapYearCheckerTest" />
+      <option name="METHOD_NAME" />
+      <option name="GROUP_NAME" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <option name="OUTPUT_DIRECTORY" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <option name="USE_DEFAULT_REPORTERS" value="false" />
+      <option name="PROPERTIES_FILE" />
+      <properties />
+      <listeners />
+    </configuration>
+    <configuration name="LeapYearCheckerTest" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="fit14qa" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="TDD.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="SUITE_NAME" />
+      <option name="PACKAGE_NAME" value="TDD" />
+      <option name="MAIN_CLASS_NAME" value="TDD.LeapYearCheckerTest" />
+      <option name="METHOD_NAME" />
+      <option name="GROUP_NAME" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <option name="OUTPUT_DIRECTORY" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <option name="USE_DEFAULT_REPORTERS" value="false" />
+      <option name="PROPERTIES_FILE" />
+      <properties />
+      <listeners />
+    </configuration>
+    <configuration name="LeapYearCheckerTest.testLeapYear" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="fit14qa" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="TDD.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="SUITE_NAME" />
+      <option name="PACKAGE_NAME" value="TDD" />
+      <option name="MAIN_CLASS_NAME" value="TDD.LeapYearCheckerTest" />
       <option name="METHOD_NAME" value="testLeapYear" />
       <option name="GROUP_NAME" />
       <option name="TEST_OBJECT" value="METHOD" />
@@ -372,18 +381,18 @@
     </configuration>
     <list>
       <item itemvalue="TestNG.AnnotationTest" />
-      <item itemvalue="TestNG.AnnotationTest.dance" />
-      <item itemvalue="TestNG.AnnotationTest.sing" />
-      <item itemvalue="TestNG.LeapYearTestTest" />
-      <item itemvalue="TestNG.LeapYearTestTest.testLeapYear" />
+      <item itemvalue="TestNG.LeapYearCheckerTest" />
+      <item itemvalue="TestNG.LeapYearCheckerTest.testLeapYear" />
+      <item itemvalue="TestNG.LeapYearCheckerTest (1)" />
+      <item itemvalue="TestNG.LeapYearCheckerTest (2)" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="TestNG.LeapYearTestTest" />
+        <item itemvalue="TestNG.LeapYearCheckerTest (2)" />
+        <item itemvalue="TestNG.LeapYearCheckerTest (1)" />
+        <item itemvalue="TestNG.LeapYearCheckerTest" />
         <item itemvalue="TestNG.AnnotationTest" />
-        <item itemvalue="TestNG.LeapYearTestTest.testLeapYear" />
-        <item itemvalue="TestNG.AnnotationTest.sing" />
-        <item itemvalue="TestNG.AnnotationTest.dance" />
+        <item itemvalue="TestNG.LeapYearCheckerTest.testLeapYear" />
       </list>
     </recent_temporary>
   </component>
@@ -407,7 +416,7 @@
       <workItem from="1529897700695" duration="1050000" />
       <workItem from="1529930838366" duration="66000" />
       <workItem from="1530060946874" duration="77000" />
-      <workItem from="1530062355762" duration="1834000" />
+      <workItem from="1530062355762" duration="3579000" />
     </task>
     <servers />
   </component>
@@ -444,7 +453,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="21068000" />
+    <option name="totallyTimeSpent" value="22813000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
@@ -458,9 +467,9 @@
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
       <window_info anchor="right" id="Maven Projects" order="3" />
       <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" order="7" weight="0.32838285" />
+      <window_info active="true" anchor="bottom" id="Version Control" order="7" visible="true" weight="0.32838285" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.31319556" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="7" visible="true" weight="0.34158415" />
+      <window_info anchor="bottom" id="Terminal" order="7" weight="0.34158415" />
       <window_info id="Capture Tool" order="2" />
       <window_info id="Designer" order="2" />
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.17246597" />
@@ -513,6 +522,32 @@
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="RECENTLY_FILTERED_USER_GROUPS">
+                <collection />
+              </option>
+              <option name="RECENTLY_FILTERED_BRANCH_GROUPS">
+                <collection />
+              </option>
+              <option name="COLUMN_ORDER">
+                <list>
+                  <option value="0" />
+                  <option value="1" />
+                  <option value="2" />
+                  <option value="3" />
+                </list>
+              </option>
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
   </component>
@@ -522,7 +557,7 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/java/TDD/LeapYearTest.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/TDD/LeapYearChecker.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="198">
           <caret line="11" column="21" selection-start-line="11" selection-start-column="21" selection-end-line="11" selection-end-column="21" />
@@ -546,7 +581,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/TDD/LeapYearTest.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/TDD/LeapYearChecker.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="198">
           <caret line="11" column="21" selection-start-line="11" selection-start-column="21" selection-end-line="11" selection-end-column="21" />
@@ -570,7 +605,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/TDD/LeapYearTest.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/TDD/LeapYearChecker.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="198">
           <caret line="11" column="21" selection-start-line="11" selection-start-column="21" selection-end-line="11" selection-end-column="21" />
@@ -594,7 +629,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/TDD/LeapYearTest.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/TDD/LeapYearChecker.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="198">
           <caret line="11" column="21" selection-start-line="11" selection-start-column="21" selection-end-line="11" selection-end-column="21" />
@@ -618,7 +653,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/TDD/LeapYearTest.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/TDD/LeapYearChecker.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="198">
           <caret line="11" column="21" selection-start-line="11" selection-start-column="21" selection-end-line="11" selection-end-column="21" />
@@ -642,7 +677,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/TDD/LeapYearTest.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/TDD/LeapYearChecker.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="198">
           <caret line="11" column="21" lean-forward="true" selection-start-line="11" selection-start-column="21" selection-end-line="11" selection-end-column="21" />
@@ -666,7 +701,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/TDD/LeapYearTest.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/TDD/LeapYearChecker.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="234">
           <caret line="13" column="5" lean-forward="true" selection-start-line="13" selection-start-column="5" selection-end-line="13" selection-end-column="5" />
@@ -687,7 +722,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/TDD/LeapYearTest.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/TDD/LeapYearChecker.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="288">
           <caret line="16" lean-forward="true" selection-start-line="16" selection-end-line="16" />
@@ -743,13 +778,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/TDD/LeapYearTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="198">
-          <caret line="11" column="21" selection-start-line="11" selection-start-column="21" selection-end-line="11" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/AnnotationTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="288">
@@ -759,11 +787,18 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/TDD/LeapYearTestTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="216">
-          <caret line="42" lean-forward="true" selection-start-line="42" selection-end-line="42" />
+        <state relative-caret-position="666">
+          <caret line="43" column="12" lean-forward="true" selection-start-line="43" selection-start-column="12" selection-end-line="43" selection-end-column="12" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/TDD/LeapYearChecker.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="198">
+          <caret line="11" column="21" selection-start-line="11" selection-start-column="21" selection-end-line="11" selection-end-column="21" />
         </state>
       </provider>
     </entry>

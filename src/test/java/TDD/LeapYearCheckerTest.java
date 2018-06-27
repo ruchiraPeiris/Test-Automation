@@ -7,14 +7,14 @@ import org.testng.annotations.Test;
 
 import static org.testng.Assert.*;
 
-public class LeapYearTestTest {
+public class LeapYearCheckerTest {
 
-    LeapYearTest lt;
+    LeapYearChecker lt;
 
 @BeforeMethod
 public void createObject(){
 
-    lt=new LeapYearTest();
+    lt=new LeapYearChecker();
 
 }
 
